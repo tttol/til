@@ -89,6 +89,11 @@ https://www.keycloak.org/getting-started/getting-started-docker
 ```
 
 # Chapter 3
-### 用語
+### OIDC
+- Open ID Connect
+- OAuth2.0を拡張したもの
 - Open Id Provider(OP): ID発行者。今回はKeycloak。
 - Relying Party(RP): エンドユーザーを認証したいアプリケーションのこと. OPにエンドユーザーのアイデンティティを要求する。
+- OIDCではJWTトークンを使ってやりとりする（OAuth2.0はJWT使わない）
+# Chapter 4
+- aaa
