@@ -13,12 +13,12 @@
     "server-only": "^0.0.1"
   },
   "devDependencies": {
-    "@testing-library/react": "14.1.2",
+    "@testing-library/react": "^15.0.7",
     "@types/node": "20.10.4",
     "@types/react": "18.2.45",
     "@vitejs/plugin-react": "^4.2.1",
-    "jsdom": "^23.0.1",
-    "typescript": "5.3.3",
-    "vitest": "1.0.4"
+    "jsdom": "^24.0.0",
+    "typescript": "^5.4.3",
+    "vitest": "^1.6.0"
   }
 }
