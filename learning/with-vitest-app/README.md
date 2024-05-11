@@ -1,5 +1,5 @@
 # zenigameでvitestが実行できない
-
+vercelのGetting Started -> https://nextjs.org/docs/app/building-your-application/testing/vitest
 ### ReferenceError: React is not defined
 ```bash
  FAIL  __tests__/page.test.tsx > Home
