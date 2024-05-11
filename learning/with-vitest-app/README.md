@@ -28,3 +28,18 @@ jsxプロパティには以下の3つの値を設定することができます�
 ```
 - もともと`preserve`になっており、これだとReactコンポーネントで`import React from 'react';`が不要になる。
 - 実際、Sum.tsxで`import React from 'react';`を削除しても問題なくアプリが動作した
+
+### ReferenceError: document is not defined
+```bash
+ FAIL  __tests__/page2.test.tsx > Page2
+ReferenceError: document is not defined
+ ❯ Proxy.render node_modules/@testing-library/react/dist/pure.js:239:5
+ ❯ __tests__/page2.test.tsx:6:3
+      4|  
+      5| test('Page2', () => {
+      6|   render(<Page2 />)
+       |   ^
+      7|   expect(screen.getByRole('heading', { level: 1, name: 'Home' })).toBeDefined()
+      8| })
+```
+原因：vitest.config.tsのファイル名をtypoしていただけだった・・・
