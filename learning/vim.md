@@ -19,4 +19,5 @@ https://zenn.dev/vim_jp/articles/38915175fe4648
    - サジェスト表示中
    - サジェスト選択中
 
+https://sifue.hatenablog.com/entry/20120411/1334161078
 ![alt text](Google日本語入力キー設定.png)
